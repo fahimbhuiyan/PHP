@@ -1,13 +1,3 @@
-/* ------------------------------------------------------------------------------
-// Assignment: #03
-// Written by: Fahim Bhuiyan 40091942
-// For SOEN 287 Section SC – Summer 2019
-// Decription: Here it will check how many times you visited the webpage within the
-// minute. It will reset after 60 secs.
-// 
-*/ -----------------------------------------------------------------------------
-
-
 <html>
 
 <head>
@@ -54,7 +44,7 @@ setcookie("count", $myCookie, time()+60, "/");
 
 /* Printing the initial counter value */
 
-echo "<b>Number of Visits: ", $myCookie ," </b> ";
+echo "<b>Number of Visits: ", $myCookie ," </b>";
 
 }
 

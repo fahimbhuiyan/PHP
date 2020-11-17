@@ -22,7 +22,7 @@
 
     <div id="footer">
 
-        <p>Copyright (c) 2019 company.com. All rights reserved. Design by <a href="#" rel="nofollow">Fahim Bhuiyan</a>.</p>
+        <p>Copyright (c) 2017 company.com. All rights reserved. Design by <a href="#" rel="nofollow">ABCXYZ.COM</a>.</p>
 
     </div>
 

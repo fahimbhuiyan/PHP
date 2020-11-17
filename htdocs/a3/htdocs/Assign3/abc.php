@@ -1,13 +1,3 @@
-/* ------------------------------------------------------------------------------
-// Assignment: #03
-// Written by: Fahim Bhuiyan 40091942
-// For SOEN 287 Section SC – Summer 2019
-// Decription: This program is a user registration page where it asked for your name, email, 
-// username, password and confirming if password matches. it looks like a cool website. 
-// 
-//  
-*/ -----------------------------------------------------------------------------
-
 <!DOCTYPE html>
 
 <html>
@@ -16,7 +6,7 @@
 
 <meta charset="utf-8" />
 
-<title>Kode</title>
+<title>webapp</title>
 
 <link href="style.css" rel="stylesheet">
 
@@ -232,7 +222,7 @@ return fv;
 
         <div id="logo">
 
-            <h1><a href="#">Kode</a></h1>
+            <h1><a href="#">webapp</a></h1>
 
             <p>new way to develop website...</p>
 
@@ -248,7 +238,7 @@ return fv;
 
 <li <?php if($x==1){echo "class='current_page_item'";} ?>><a href="index.php">Home</a></li>
 
-<li <?php if($x==2){echo "class='current_page_item'";} ?>><a href="newuser.php">New User</a></li>                      
+<li <?php if($x==2){echo "class='current_page_item'";} ?>><a href="newuser_form.php">New User</a></li>                      
 
             <li><a href="#">About</a></li>          
 
@@ -270,5 +260,5 @@ return fv;
 
             <div class="post">
 
-                <h2 class="title"><a href="#">Kode Portal </a></h2>
+                <h2 class="title"><a href="#">Webapp portal </a></h2>
 

@@ -4,7 +4,7 @@ $x=2;
 require_once 'abc.php';
 ?>
 
-<p class="meta"><span class="date"> User Registration</span></p>
+<p class="meta"><span class="date"> user registration?</span></p>
 
 <div style="clear: both;">&nbsp;</div>
 
@@ -63,6 +63,9 @@ require_once 'abc.php';
                 </td>
 
             </tr>
+
+            
+
             <tr>
 
                 <td>Retype password : </td>
@@ -70,6 +73,9 @@ require_once 'abc.php';
                 <td><input type="password" id="rp" name="rp" onkeyup="return checkPassword()">
 
                     <span id="nomatch" style="color:red;visibility: hidden; display:inline;">* password not matched</span>
+
+                    
+
                 </td>
 
             </tr>
@@ -81,10 +87,8 @@ require_once 'abc.php';
                 <td><input type="reset" value="clear data"></td>
 
             </tr>
-            
 
-<table>
-<input type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
+            <table>
 
 </form>
 
